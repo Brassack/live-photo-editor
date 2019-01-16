@@ -7,21 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		321CE66821EDE7C30068C08A /* LPCGIFConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321CE66721EDE7C30068C08A /* LPCGIFConverter.swift */; };
+		321CE66B21EE08860068C08A /* LPCLivePhotoConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321CE66A21EE08860068C08A /* LPCLivePhotoConverter.swift */; };
 		3235D4E321B29DD30037117F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3235D4E221B29DD30037117F /* AppDelegate.swift */; };
-		3235D4E521B29DD30037117F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3235D4E421B29DD30037117F /* ViewController.swift */; };
+		3235D4E521B29DD30037117F /* LPCHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3235D4E421B29DD30037117F /* LPCHomeViewController.swift */; };
 		3235D4E821B29DD30037117F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3235D4E621B29DD30037117F /* Main.storyboard */; };
 		3235D4EA21B29DD40037117F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3235D4E921B29DD40037117F /* Assets.xcassets */; };
 		3235D4ED21B29DD40037117F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3235D4EB21B29DD40037117F /* LaunchScreen.storyboard */; };
+		3235D4F921B29FE00037117F /* LPCTitleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3235D4F821B29FE00037117F /* LPCTitleButton.swift */; };
+		3235D4FD21B2A3150037117F /* LPCButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3235D4FC21B2A3150037117F /* LPCButton.swift */; };
+		3235D50021B2B7900037117F /* LPCEditVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3235D4FF21B2B7900037117F /* LPCEditVideoViewController.swift */; };
+		324638C721EB361F005A40B2 /* LPCFileType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324638C621EB361F005A40B2 /* LPCFileType.swift */; };
+		324638C921EB3DD5005A40B2 /* LPCFileExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324638C821EB3DD5005A40B2 /* LPCFileExporter.swift */; };
+		3258661921EF261D00CE89B7 /* LPCVideoParametersExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3258661821EF261D00CE89B7 /* LPCVideoParametersExtractor.swift */; };
+		3258661D21EF534A00CE89B7 /* LPCFileTypeDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3258661C21EF534A00CE89B7 /* LPCFileTypeDetector.swift */; };
+		3258661F21EF56DD00CE89B7 /* LPCVideoConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3258661E21EF56DD00CE89B7 /* LPCVideoConverter.swift */; };
+		325EDCD121ECBAE300067D0E /* LPCPathBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325EDCD021ECBAE300067D0E /* LPCPathBuilder.swift */; };
+		326BB8BA21C13810004C51BD /* LPCHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326BB8B921C13810004C51BD /* LPCHomeViewModel.swift */; };
+		32C2047B21EF5D1D00B65548 /* LPCErrorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C2047A21EF5D1D00B65548 /* LPCErrorPresenter.swift */; };
+		32C2047D21EF633900B65548 /* LCPVideoFileParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C2047C21EF633900B65548 /* LCPVideoFileParameters.swift */; };
+		32C2047F21EF635100B65548 /* LCPSourceFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C2047E21EF635100B65548 /* LCPSourceFile.swift */; };
+		32C2048121EF636800B65548 /* LPCVideoFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C2048021EF636800B65548 /* LPCVideoFile.swift */; };
+		32C2048321EF637E00B65548 /* LPCProcessingStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C2048221EF637E00B65548 /* LPCProcessingStatus.swift */; };
+		32FBDD5521BEF7B30057ECC0 /* LPCEditVideoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FBDD5421BEF7B30057ECC0 /* LPCEditVideoViewModel.swift */; };
+		FBE1A19617BEB9F476174647 /* Pods_Livepc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013D689E1029CC34E2934FBC /* Pods_Livepc.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		013D689E1029CC34E2934FBC /* Pods_Livepc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Livepc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		321CE66721EDE7C30068C08A /* LPCGIFConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPCGIFConverter.swift; sourceTree = "<group>"; };
+		321CE66A21EE08860068C08A /* LPCLivePhotoConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPCLivePhotoConverter.swift; sourceTree = "<group>"; };
 		3235D4DF21B29DD30037117F /* Livepc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Livepc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3235D4E221B29DD30037117F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3235D4E421B29DD30037117F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3235D4E421B29DD30037117F /* LPCHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPCHomeViewController.swift; sourceTree = "<group>"; };
 		3235D4E721B29DD30037117F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3235D4E921B29DD40037117F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3235D4EC21B29DD40037117F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3235D4EE21B29DD40037117F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3235D4F821B29FE00037117F /* LPCTitleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPCTitleButton.swift; sourceTree = "<group>"; };
+		3235D4FC21B2A3150037117F /* LPCButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LPCButton.swift; sourceTree = "<group>"; };
+		3235D4FF21B2B7900037117F /* LPCEditVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPCEditVideoViewController.swift; sourceTree = "<group>"; };
+		324638C621EB361F005A40B2 /* LPCFileType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPCFileType.swift; sourceTree = "<group>"; };
+		324638C821EB3DD5005A40B2 /* LPCFileExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPCFileExporter.swift; sourceTree = "<group>"; };
+		3258661821EF261D00CE89B7 /* LPCVideoParametersExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPCVideoParametersExtractor.swift; sourceTree = "<group>"; };
+		3258661C21EF534A00CE89B7 /* LPCFileTypeDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPCFileTypeDetector.swift; sourceTree = "<group>"; };
+		3258661E21EF56DD00CE89B7 /* LPCVideoConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPCVideoConverter.swift; sourceTree = "<group>"; };
+		325EDCD021ECBAE300067D0E /* LPCPathBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPCPathBuilder.swift; sourceTree = "<group>"; };
+		326BB8B921C13810004C51BD /* LPCHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPCHomeViewModel.swift; sourceTree = "<group>"; };
+		32B0415A21BEDD7C00F99460 /* Livepc-Briging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Livepc-Briging-Header.h"; sourceTree = "<group>"; };
+		32C059D821BEE39700BC3E1A /* Livepc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Livepc.entitlements; sourceTree = "<group>"; };
+		32C2047A21EF5D1D00B65548 /* LPCErrorPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPCErrorPresenter.swift; sourceTree = "<group>"; };
+		32C2047C21EF633900B65548 /* LCPVideoFileParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCPVideoFileParameters.swift; sourceTree = "<group>"; };
+		32C2047E21EF635100B65548 /* LCPSourceFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCPSourceFile.swift; sourceTree = "<group>"; };
+		32C2048021EF636800B65548 /* LPCVideoFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPCVideoFile.swift; sourceTree = "<group>"; };
+		32C2048221EF637E00B65548 /* LPCProcessingStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPCProcessingStatus.swift; sourceTree = "<group>"; };
+		32FBDD5421BEF7B30057ECC0 /* LPCEditVideoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPCEditVideoViewModel.swift; sourceTree = "<group>"; };
+		9AAC2B1DF02144FB09C0404B /* Pods-Livepc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Livepc.release.xcconfig"; path = "Target Support Files/Pods-Livepc/Pods-Livepc.release.xcconfig"; sourceTree = "<group>"; };
+		D7A9BDCFC5E5CF7ACCC4F4EB /* Pods-Livepc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Livepc.debug.xcconfig"; path = "Target Support Files/Pods-Livepc/Pods-Livepc.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +71,64 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBE1A19617BEB9F476174647 /* Pods_Livepc.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		321CE65421EDC9E30068C08A /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				3235D4EE21B29DD40037117F /* Info.plist */,
+				32B0415A21BEDD7C00F99460 /* Livepc-Briging-Header.h */,
+				32C059D821BEE39700BC3E1A /* Livepc.entitlements */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		321CE65521EDCA200068C08A /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				3235D4E621B29DD30037117F /* Main.storyboard */,
+				3235D4EB21B29DD40037117F /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		321CE65621EDCA310068C08A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3235D4E921B29DD40037117F /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		321CE65721EDCA620068C08A /* Third party */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Third party";
+			sourceTree = "<group>";
+		};
+		321CE66921EDE8430068C08A /* Converters */ = {
+			isa = PBXGroup;
+			children = (
+				321CE66721EDE7C30068C08A /* LPCGIFConverter.swift */,
+				321CE66A21EE08860068C08A /* LPCLivePhotoConverter.swift */,
+				3258661E21EF56DD00CE89B7 /* LPCVideoConverter.swift */,
+			);
+			path = Converters;
+			sourceTree = "<group>";
+		};
 		3235D4D621B29DD30037117F = {
 			isa = PBXGroup;
 			children = (
 				3235D4E121B29DD30037117F /* Livepc */,
 				3235D4E021B29DD30037117F /* Products */,
+				DB2908768C088C23F256FE44 /* Pods */,
+				4F7D309F819A9186F5B1DDC3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +143,87 @@
 		3235D4E121B29DD30037117F /* Livepc */ = {
 			isa = PBXGroup;
 			children = (
+				321CE65521EDCA200068C08A /* Storyboard */,
+				321CE65721EDCA620068C08A /* Third party */,
+				324638C521EB35F7005A40B2 /* Model */,
+				32C059D621BEE04100BC3E1A /* Screens */,
+				32B0415721BEDABC00F99460 /* Services */,
+				325EDCCF21ECBACE00067D0E /* Helper */,
+				32C059D721BEE05500BC3E1A /* UI Components */,
+				321CE65621EDCA310068C08A /* Resources */,
+				321CE65421EDC9E30068C08A /* Supporting files */,
 				3235D4E221B29DD30037117F /* AppDelegate.swift */,
-				3235D4E421B29DD30037117F /* ViewController.swift */,
-				3235D4E621B29DD30037117F /* Main.storyboard */,
-				3235D4E921B29DD40037117F /* Assets.xcassets */,
-				3235D4EB21B29DD40037117F /* LaunchScreen.storyboard */,
-				3235D4EE21B29DD40037117F /* Info.plist */,
 			);
 			path = Livepc;
+			sourceTree = "<group>";
+		};
+		324638C521EB35F7005A40B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				324638C621EB361F005A40B2 /* LPCFileType.swift */,
+				32C2047C21EF633900B65548 /* LCPVideoFileParameters.swift */,
+				32C2047E21EF635100B65548 /* LCPSourceFile.swift */,
+				32C2048021EF636800B65548 /* LPCVideoFile.swift */,
+				32C2048221EF637E00B65548 /* LPCProcessingStatus.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		325EDCCF21ECBACE00067D0E /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				325EDCD021ECBAE300067D0E /* LPCPathBuilder.swift */,
+				3258661C21EF534A00CE89B7 /* LPCFileTypeDetector.swift */,
+				32C2047A21EF5D1D00B65548 /* LPCErrorPresenter.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		32B0415721BEDABC00F99460 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				321CE66921EDE8430068C08A /* Converters */,
+				324638C821EB3DD5005A40B2 /* LPCFileExporter.swift */,
+				3258661821EF261D00CE89B7 /* LPCVideoParametersExtractor.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		32C059D621BEE04100BC3E1A /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				326BB8B921C13810004C51BD /* LPCHomeViewModel.swift */,
+				3235D4E421B29DD30037117F /* LPCHomeViewController.swift */,
+				32FBDD5421BEF7B30057ECC0 /* LPCEditVideoViewModel.swift */,
+				3235D4FF21B2B7900037117F /* LPCEditVideoViewController.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		32C059D721BEE05500BC3E1A /* UI Components */ = {
+			isa = PBXGroup;
+			children = (
+				3235D4FC21B2A3150037117F /* LPCButton.swift */,
+				3235D4F821B29FE00037117F /* LPCTitleButton.swift */,
+			);
+			path = "UI Components";
+			sourceTree = "<group>";
+		};
+		4F7D309F819A9186F5B1DDC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				013D689E1029CC34E2934FBC /* Pods_Livepc.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB2908768C088C23F256FE44 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7A9BDCFC5E5CF7ACCC4F4EB /* Pods-Livepc.debug.xcconfig */,
+				9AAC2B1DF02144FB09C0404B /* Pods-Livepc.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +233,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3235D4F121B29DD40037117F /* Build configuration list for PBXNativeTarget "Livepc" */;
 			buildPhases = (
+				3E956AF88BA5B785D0F5A3F7 /* [CP] Check Pods Manifest.lock */,
 				3235D4DB21B29DD30037117F /* Sources */,
 				3235D4DC21B29DD30037117F /* Frameworks */,
 				3235D4DD21B29DD30037117F /* Resources */,
+				FE24C6EB8638D368F6CD148B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -90,12 +254,18 @@
 		3235D4D721B29DD30037117F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LPC;
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Dmytro Platov";
 				TargetAttributes = {
 					3235D4DE21B29DD30037117F = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -130,13 +300,90 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3E956AF88BA5B785D0F5A3F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Livepc-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE24C6EB8638D368F6CD148B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Livepc/Pods-Livepc-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ABVideoRangeSlider/ABVideoRangeSlider.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxOptional/RxOptional.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ABVideoRangeSlider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxOptional.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Livepc/Pods-Livepc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3235D4DB21B29DD30037117F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3235D4E521B29DD30037117F /* ViewController.swift in Sources */,
+				32FBDD5521BEF7B30057ECC0 /* LPCEditVideoViewModel.swift in Sources */,
+				3235D4E521B29DD30037117F /* LPCHomeViewController.swift in Sources */,
+				324638C921EB3DD5005A40B2 /* LPCFileExporter.swift in Sources */,
+				32C2047D21EF633900B65548 /* LCPVideoFileParameters.swift in Sources */,
+				32C2048321EF637E00B65548 /* LPCProcessingStatus.swift in Sources */,
+				32C2047B21EF5D1D00B65548 /* LPCErrorPresenter.swift in Sources */,
+				321CE66B21EE08860068C08A /* LPCLivePhotoConverter.swift in Sources */,
+				3235D50021B2B7900037117F /* LPCEditVideoViewController.swift in Sources */,
+				3235D4FD21B2A3150037117F /* LPCButton.swift in Sources */,
 				3235D4E321B29DD30037117F /* AppDelegate.swift in Sources */,
+				324638C721EB361F005A40B2 /* LPCFileType.swift in Sources */,
+				3258661921EF261D00CE89B7 /* LPCVideoParametersExtractor.swift in Sources */,
+				326BB8BA21C13810004C51BD /* LPCHomeViewModel.swift in Sources */,
+				3258661F21EF56DD00CE89B7 /* LPCVideoConverter.swift in Sources */,
+				325EDCD121ECBAE300067D0E /* LPCPathBuilder.swift in Sources */,
+				32C2048121EF636800B65548 /* LPCVideoFile.swift in Sources */,
+				32C2047F21EF635100B65548 /* LCPSourceFile.swift in Sources */,
+				321CE66821EDE7C30068C08A /* LPCGIFConverter.swift in Sources */,
+				3235D4F921B29FE00037117F /* LPCTitleButton.swift in Sources */,
+				3258661D21EF534A00CE89B7 /* LPCFileTypeDetector.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +460,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -268,7 +515,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -280,17 +527,20 @@
 		};
 		3235D4F221B29DD40037117F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7A9BDCFC5E5CF7ACCC4F4EB /* Pods-Livepc.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Livepc/Supporting files/Livepc.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TR2QW27HUU;
-				INFOPLIST_FILE = Livepc/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Livepc/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dplatov.Livepc;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dplatov.livepc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Livepc/Supporting files/Livepc-Briging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,17 +548,20 @@
 		};
 		3235D4F321B29DD40037117F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AAC2B1DF02144FB09C0404B /* Pods-Livepc.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Livepc/Supporting files/Livepc.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TR2QW27HUU;
-				INFOPLIST_FILE = Livepc/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Livepc/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dplatov.Livepc;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dplatov.livepc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Livepc/Supporting files/Livepc-Briging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

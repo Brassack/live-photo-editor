@@ -1,0 +1,43 @@
+PODS:
+  - ABVideoRangeSlider (0.1.5)
+  - IQKeyboardManagerSwift (6.2.0)
+  - JGProgressHUD (2.0.3)
+  - RxAtomic (4.4.0)
+  - RxCocoa (4.4.0):
+    - RxSwift (~> 4.0)
+  - RxOptional (3.6.2):
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.4.0):
+    - RxAtomic (~> 4.4)
+
+DEPENDENCIES:
+  - ABVideoRangeSlider
+  - IQKeyboardManagerSwift
+  - JGProgressHUD
+  - RxCocoa (~> 4.0)
+  - RxOptional
+  - RxSwift (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ABVideoRangeSlider
+    - IQKeyboardManagerSwift
+    - JGProgressHUD
+    - RxAtomic
+    - RxCocoa
+    - RxOptional
+    - RxSwift
+
+SPEC CHECKSUMS:
+  ABVideoRangeSlider: f2b6d894170bd0951693de4c1ad625f7f9f8b6a5
+  IQKeyboardManagerSwift: b07ccf9d8cafe993dcd6cb794eb4ba34611a0c4e
+  JGProgressHUD: 12b20a8f4ffe05258f8635c1ab92816e451f904d
+  RxAtomic: eacf60db868c96bfd63320e28619fe29c179656f
+  RxCocoa: df63ebf7b9a70d6b4eeea407ed5dd4efc8979749
+  RxOptional: 80426a0ddbd092573e4c482d8cc13302078c4d5e
+  RxSwift: 5976ecd04fc2fefd648827c23de5e11157faa973
+
+PODFILE CHECKSUM: ebf62292df686b41177f8adab88158348fddfb23
+
+COCOAPODS: 1.6.0.beta.2
