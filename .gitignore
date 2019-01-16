@@ -19,6 +19,8 @@ Templates/
 *.perspectivev3
 !default.perspectivev3
 xcuserdata/
+*.xcuserstate
+*.xcshareddata
 
 ## Other
 *.moved-aside
