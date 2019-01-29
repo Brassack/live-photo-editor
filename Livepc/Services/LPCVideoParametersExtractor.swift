@@ -12,9 +12,10 @@ import AVFoundation
 class LPCVideoParametersExtractor {
     
     func parameters(for video: URL) throws -> LCPVideoFileParameters {
-        var parameters = LCPVideoFileParameters(resolution: .zero, fps: 0, isContainAudio: false)
+        var parameters = LCPVideoFileParameters.empty()
         
         let videoAsset = AVAsset(url: video)
+        parameters.duration = videoAsset.duration.seconds
         parameters.isContainAudio = (videoAsset.tracks(withMediaType: AVMediaType.audio).first != nil)
         
         guard let videoAssetTrack = videoAsset.tracks(withMediaType: AVMediaType.video).first else {

@@ -51,7 +51,10 @@ class LPCFileExporter {
                     converter.progressFunction = { progressSubject.onNext($0) }
                     try converter.convert(to: destinationURL)
                     
-                    let videoParameters = LCPVideoFileParameters(resolution: converter.videoSize, fps: Float(converter.gif.duration/TimeInterval(converter.gif.framesCount)), isContainAudio: false)
+                    let videoParameters = LCPVideoFileParameters(resolution: converter.videoSize,
+                                                                 fps: Float(converter.gif.duration/TimeInterval(converter.gif.framesCount)),
+                                                                 isContainAudio: false,
+                                                                 duration: converter.gif.duration)
                     let file = LPCVideoFile(source: source, url: destinationURL, parameters: videoParameters)
                     
                     return file

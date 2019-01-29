@@ -28,8 +28,8 @@ class LPCVideoConverter {
     }
     
     func convert(to url :URL) throws -> LCPVideoFileParameters {
-        var parameters = LCPVideoFileParameters(resolution: .zero, fps: 0, isContainAudio: false)
-
+        var parameters = LCPVideoFileParameters.empty()
+        parameters.duration = videoAsset.duration.seconds
         
         let composition = AVMutableComposition()
         

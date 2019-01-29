@@ -23,16 +23,10 @@ class LPCHomeViewModel {
     private(set) var videoProcessingStatus = Observable<LPCProcessingStatus<LPCVideoFile>>.never()//never() to avoid error using [weak self]
     
     init() {
-        
+        //Not using drive bacause want native error processing
         videoProcessingStatus = sourceFile.filterNil().flatMap({ [weak self] (source) -> Observable<LPCProcessingStatus<LPCVideoFile>> in
             guard let self = self else { return Observable<LPCProcessingStatus<LPCVideoFile>>.never() }
             return self.exporter.export(source)
         }).share(replay: 1)
-        
-        videoProcessingStatus.subscribe(onNext: {
-            print("next ", $0)
-        }, onError: { (error) in
-            
-        }).disposed(by: disposeBag)
     }
 }

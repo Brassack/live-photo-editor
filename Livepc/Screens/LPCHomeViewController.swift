@@ -63,7 +63,7 @@ class LPCHomeViewController: UIViewController, UINavigationControllerDelegate {
                 self.openButton.isUserInteractionEnabled = true
                 self.openButton.title = "Open"
                 if let vc = self.storyboard?.instantiateViewController(withIdentifier: String(describing: LPCEditVideoViewController.self)) as? LPCEditVideoViewController {
-                    vc._video = video
+                    vc.model.videoFile.onNext(video)
                     self.present(vc, animated: true, completion: nil)
                 }
             }
